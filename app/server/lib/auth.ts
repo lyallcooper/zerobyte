@@ -196,7 +196,6 @@ export const auth = betterAuth({
 		}),
 		apiKey({
 			defaultPrefix: "zb_",
-			enableSessionForAPIKeys: true,
 			enableMetadata: true,
 		}),
 		tanstackStartCookies(),
